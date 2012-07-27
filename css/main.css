@@ -1,0 +1,41 @@
+body {
+	background: #000000;
+	height: 100%;
+	width: 100%;	
+
+}
+
+.container{
+	width:800px;
+	margin: 0 auto;
+}
+  
+object:focus { 
+	outline:none; 
+}
+
+#flashContent {
+	margin: 0 auto;
+}
+
+.container h1 {
+	font-size: 2em;
+	line-height: 2.2em;
+	color: #FFF;
+	display:block;
+	font-family: Arial;
+	border-bottom: 1px dotted #fff;
+	text-align: center;
+}
+
+.container h4 {
+	color: #FFF;
+	font-family: Arial;
+}
+
+#description {
+	float:left;
+	font-family: sans-serif;
+	margin-left: 75px;
+	color: #ffffff;
+}

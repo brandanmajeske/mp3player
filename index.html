@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+   		<meta charset="utf-8" />
+  		<meta name="author" content="Brandan Majeske">
+        <title></title>
+     
+       
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="swfobject.js"></script>
+        <script type="text/javascript">
+          
+          var swfVersionStr = "11.1.0";
+            // To use express install, set to playerProductInstall.swf, otherwise the empty string. 
+            var xiSwfUrlStr = "playerProductInstall.swf";
+            var flashvars = {};
+            var params = {};
+            params.quality = "high";
+            params.bgcolor = "#000000";
+            params.allowscriptaccess = "sameDomain";
+            params.allowfullscreen = "true";
+            var attributes = {};
+            attributes.id = "Main";
+            attributes.name = "Main";
+            attributes.align = "middle";
+            swfobject.embedSWF(
+                "Main.swf", "flashContent", 
+                "800", "400", 
+                swfVersionStr, xiSwfUrlStr, 
+                flashvars, params, attributes);     
+        </script>
+        
+   </head>
+   <body>
+   <div class="container">
+      <h1>Full Sail University | Flash ActionScript Techniques</h1>
+      <h4>MP3 Audio Player by Brandan Majeske</h4>
+      <div id="flashContent">
+      <p>To view this page install <a href="http://get.adobe.com/flashplayer/" target="_blank">Adobe Flash Player</a></p>	
+    </div>
+    <div id="description">
+    
+      
+   </div>
+   </div> <!-- end container --> 
+   </body>
+</html>
