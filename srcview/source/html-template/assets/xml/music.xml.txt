@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<playlist>
+	<song>
+		<title>For The Summer</title>
+		<artist>Ray Lamontagne</artist>
+		<length>232</length>
+		<path>summer.mp3</path>
+		<image>rise.jpg</image>
+	</song>
+	<song>
+		<title>Risingson</title>
+		<artist>Massive Attack</artist>
+		<length>298</length>
+		<path>risingson.mp3</path>
+		<image>mezzanine.jpg</image>
+	</song>
+	<song>
+		<title>Homewrecker</title>
+		<artist>Nick Lowe</artist>
+		<length>189</length>
+		<path>homewrecker.mp3</path>
+		<image>convincer.jpg</image>
+	</song>
+		<song>
+		<title>Perth</title>
+		<artist>Bon Iver</artist>
+		<length>262</length>
+		<path>perth.mp3</path>
+		<image>boniver.jpg</image>
+	</song>
+</playlist>

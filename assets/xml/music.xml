@@ -21,4 +21,11 @@
 		<path>homewrecker.mp3</path>
 		<image>convincer.jpg</image>
 	</song>
+		<song>
+		<title>Perth</title>
+		<artist>Bon Iver</artist>
+		<length>262</length>
+		<path>perth.mp3</path>
+		<image>boniver.jpg</image>
+	</song>
 </playlist>

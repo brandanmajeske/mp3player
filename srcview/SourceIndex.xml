@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+	<title>Source of MajeskeB_MP3Player</title>
+	<nodes>
+		<node label="html-template">
+			<node label="assets">
+				<node label="images">
+					<node icon="imageIcon" label="boniver.jpg" url="source/html-template/assets/images/boniver.jpg.html"/>
+					<node icon="imageIcon" label="convincer.jpg" url="source/html-template/assets/images/convincer.jpg.html"/>
+					<node icon="imageIcon" label="mezzanine.jpg" url="source/html-template/assets/images/mezzanine.jpg.html"/>
+					<node icon="imageIcon" label="rise.jpg" url="source/html-template/assets/images/rise.jpg.html"/>
+				</node>
+				<node label="music">
+					<node label="homewrecker.mp3" url="source/html-template/assets/music/homewrecker.mp3"/>
+					<node label="perth.mp3" url="source/html-template/assets/music/perth.mp3"/>
+					<node label="risingson.mp3" url="source/html-template/assets/music/risingson.mp3"/>
+					<node label="summer.mp3" url="source/html-template/assets/music/summer.mp3"/>
+				</node>
+				<node label="xml">
+					<node label="music.xml" url="source/html-template/assets/xml/music.xml.txt"/>
+				</node>
+			</node>
+			<node label="css">
+				<node icon="cssIcon" label="main.template.css" url="source/html-template/css/main.template.css.html"/>
+			</node>
+			<node label="history">
+				<node icon="cssIcon" label="history.css" url="source/html-template/history/history.css.html"/>
+				<node label="history.js" url="source/html-template/history/history.js.txt"/>
+				<node icon="htmlIcon" label="historyFrame.html" url="source/html-template/history/historyFrame.html"/>
+			</node>
+			<node icon="htmlIcon" label="index.template.html" url="source/html-template/index.template.html"/>
+			<node icon="swfIcon" label="playerProductInstall.swf" url="source/html-template/playerProductInstall.swf"/>
+			<node label="swfobject.js" url="source/html-template/swfobject.js.txt"/>
+		</node>
+		<node label="lib">
+			<node icon="flaIcon" label="assets.fla" url="source/lib/assets.fla"/>
+			<node label="assets.swc" url="source/lib/assets.swc"/>
+		</node>
+		<node label="src">
+			<node icon="packageIcon" label="com.brandanmajeske.app" expanded="true">
+				<node icon="actionScriptIcon" label="MusicPlayer.as" url="source/com/brandanmajeske/app/MusicPlayer.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.brandanmajeske.managers" expanded="true">
+				<node icon="actionScriptIcon" label="SlideManager.as" url="source/com/brandanmajeske/managers/SlideManager.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.brandanmajeske.vo" expanded="true">
+				<node icon="actionScriptIcon" label="SongsVO.as" url="source/com/brandanmajeske/vo/SongsVO.as.html"/>
+			</node>
+			<node icon="mxmlAppIcon" selected="true" label="Main.as" url="source/Main.as.html"/>
+		</node>
+	</nodes>
+	<zipfile label="Download source (ZIP, 26693K)" url="MajeskeB_MP3Player.zip">
+	</zipfile>
+	<sdklink label="Download Flex SDK" url="http://www.adobe.com/go/flex451_sdk_download">
+	</sdklink>
+</index>
